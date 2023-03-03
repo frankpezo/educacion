@@ -4,7 +4,7 @@
 if( !isset($_POST['id'])  || !isset($_POST['codigo'])  || !isset($_POST['nombre']) ||  !isset($_POST['tipo'] )|| !isset($_POST['empresa']) ){
     exit();
 }
-
+//Ahora.
 
 //2. Incluimos la base de datos
 include_once 'base_de_datos.php';
